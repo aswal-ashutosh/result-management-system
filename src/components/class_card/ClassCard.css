@@ -1,0 +1,35 @@
+.ClassCard {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgba(109, 97, 97, 0.452);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(189, 172, 172);
+}
+
+.ClassCard .S-no {
+  display: inline-block;
+  font-size: 1.3rem;
+  border-radius: 60%;
+  padding: 1.5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.ClassCard .ClassName {
+  display: inline-block;
+  margin-left: 10%;
+  font-size: 1.3rem;
+}
+
+.ClassCard button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 5px;
+  margin: auto 1.5%;
+  color: white;
+  background-color: rgba(27, 31, 31, 0.671);
+}

@@ -1,0 +1,28 @@
+.StudentForm table{
+    margin: auto;
+}
+
+.StudentForm input{
+    outline: none;
+    color: grey;
+    height: 5vh;
+    width: 20vw;
+    display: block;
+    margin: 2.5% auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+.StudentForm button{
+    width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin: auto 1.5%;
+}
+
+.StudentForm h3{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}

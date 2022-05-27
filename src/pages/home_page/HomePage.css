@@ -1,0 +1,11 @@
+#HomePage {
+  margin: 0;
+  padding: 0;
+}
+
+#HomePageContent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.ResultContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.Result {
+  width: 50vw;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.NameRollNo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NameRollNo p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Result table {
+  width: 100vh;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.Result th,
+.Result td,
+.Result tr {
+  border: 1px solid black;
+}
+
+.Result hr{
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}

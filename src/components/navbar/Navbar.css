@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(54, 169, 214, 0.795);
+    text-align: center;
+    padding: 1.5%;
+    box-shadow: 2px 3px 8px rgb(189, 172, 172);
+}
+
+nav h1{
+    color: white;
+}
+
+nav h4{
+    color:black;
+}
+
+nav .Nav-btn{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .Nav-btn button{
+    background-color: rgb(221, 245, 247);
+}

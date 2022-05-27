@@ -1,0 +1,41 @@
+.StudentCard {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(109, 97, 97, 0.452);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(189, 172, 172);
+}
+
+.StudentCard .RollNumber {
+  display: inline-block;
+  font-size: 1.3rem;
+  border-radius: 60%;
+  padding: 1.0%;
+  background-color: rgb(255, 255, 255);
+}
+
+.StudentCard .StudentName {
+  display: inline-block;
+  margin-left: 10%;
+  padding: 1%;
+  font-size: 1.3rem;
+}
+
+.StudentCard button {
+  display: inline-block;
+  width: 6vw;
+  height: 4vh;
+  border-radius: 5px;
+  margin: auto 1.5%;
+  color: white;
+  background-color: rgba(27, 31, 31, 0.671);
+}
+
+.StudentCard .Buttons{
+  display: flex;
+}

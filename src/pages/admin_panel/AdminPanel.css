@@ -1,0 +1,15 @@
+#AdminPanel{
+    text-align: center;
+}
+
+#AdminPanel button{
+    width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin: auto 1.5%;
+}
+
+#AdminPanel h3{
+    margin-top: 1.5%;
+    margin-bottom: 1.0%;
+}
