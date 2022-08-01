@@ -213,7 +213,13 @@ export const updateStudentDetails = async function (
   subjectsWithMarks
 ) {
   try {
-    console.log(className, collegeID, studentName, studentRollNumber, subjectsWithMarks);
+    console.log(
+      className,
+      collegeID,
+      studentName,
+      studentRollNumber,
+      subjectsWithMarks
+    );
     const studentDetailDocRef = doc(
       firestore,
       "college",
